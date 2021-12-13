@@ -11,14 +11,14 @@ class DbConfig:
             sysNm = str(db_info)
             if sysNm == 'zero':
                 self.db_config = {
-                    'host': 'lotto.cpfmnga4bqgy.ap-northeast-2.rds.amazonaws.com'
+                    'host': 'slothnum.c2bfpconlbq9.ap-northeast-2.rds.amazonaws.com' 
                     , 'user': 'zero'
                     , 'password': 'tkrkwl1564!'
                     , 'db': 'innodb'
                 }
             else:  # 로컬에서 테스트 진행 시
                 self.db_config = {
-                    'host': "lotto.cpfmnga4bqgy.ap-northeast-2.rds.amazonaws.com"
+                    'host': "slothnum.c2bfpconlbq9.ap-northeast-2.rds.amazonaws.com"
                     , 'user': 'zero'
                     , 'password': 'tkrkwl1564!'
                     , 'db': 'innodb'
