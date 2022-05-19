@@ -1,5 +1,6 @@
 import pymysql
-
+# import cx_Oracle -- 오라클 연동
+# self.db = cx_Oracle.connect(<<USER_NAME>>/<<PWD>>@<<HOST>>:<<PORT>>/<<SERVICE_NAME>>)
 
 class DbConfig:
     db_config = {}
