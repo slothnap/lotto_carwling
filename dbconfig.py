@@ -12,17 +12,17 @@ class DbConfig:
             sysNm = str(db_info)
             if sysNm == 'zero':
                 self.db_config = {
-                    'host': 'zero.cqjpoyzx2xld.ap-northeast-2.rds.amazonaws.com' 
+                    'host': 'ec2-52-79-213-243.ap-northeast-2.compute.amazonaws.com' 
                     , 'user': 'zero'
                     , 'password': 'tkrkwl1564!'
-                    , 'db': 'zero'
+                    , 'db': 'lottodb'
                 }
             else:  # 로컬에서 테스트 진행 시
                 self.db_config = {
-                    'host': "zero.cqjpoyzx2xld.ap-northeast-2.rds.amazonaws.com"
+                    'host': "ec2-52-79-213-243.ap-northeast-2.compute.amazonaws.com"
                     , 'user': 'zero'
                     , 'password': 'tkrkwl1564!'
-                    , 'db': 'innodb'
+                    , 'db': 'lottodb'
                 }
         elif str(type(db_info)) == "<class 'dict'>":
             print(type(db_info))
