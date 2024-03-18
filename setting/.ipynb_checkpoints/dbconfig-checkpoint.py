@@ -14,14 +14,14 @@ class DbConfig:
                 self.db_config = {
                     'host': 'ec2-52-79-213-243.ap-northeast-2.compute.amazonaws.com' 
                     , 'user': 'zero'
-                    , 'password': 'tkrkwl1564!'
+                    , 'password': 'zero123'
                     , 'db': 'lottodb'
                 }
             else:  # 로컬에서 테스트 진행 시
                 self.db_config = {
                     'host': "ec2-52-79-213-243.ap-northeast-2.compute.amazonaws.com"
                     , 'user': 'zero'
-                    , 'password': 'tkrkwl1564!'
+                    , 'password': 'zero123'
                     , 'db': 'lottodb'
                 }
         elif str(type(db_info)) == "<class 'dict'>":
